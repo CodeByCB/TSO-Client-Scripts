@@ -1,0 +1,17 @@
+# Editors and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local test output and packages
+*.log
+*.zip
+dist/
+build/
+
+# Personal client data must never be published
+settings.dat
+userscripts/
+logs/
