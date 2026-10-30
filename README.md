@@ -9,6 +9,7 @@ Copyright © 2026 CodeByCB (China Blue)
 | Script | Description | Documentation |
 | --- | --- | --- |
 | `user_cb_ChatReconnect.js` | Attempts to restore a lost in-game chat connection without restarting the client. | [Chat Reconnect](docs/ChatReconnect.md) |
+| `cb_PumpkinCemeteryCaretaker.js` | Finds pumpkin cemeteries, navigates to them and manages controlled pumpkin refills. | [Pumpkin Cemetery Caretaker](docs/PumpkinCemeteryCaretaker.md) |
 
 More scripts may be added to this repository in the future.
 

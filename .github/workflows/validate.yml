@@ -23,4 +23,8 @@ jobs:
           node-version: "22"
 
       - name: Check JavaScript syntax
-        run: node --check user_cb_ChatReconnect.js
+        shell: bash
+        run: |
+          for script in ./*.js; do
+            node --check "$script"
+          done
